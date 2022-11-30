@@ -52,8 +52,8 @@ model = FlaxHybridCLIP.from_pretrained("flax-community/medclip-roco")
 Alternatively you can download the model checkpoint from [[🤗 Model card]](https://huggingface.co/flax-community/medclip-roco).
 ## Training
 The model is trained using Flax/JAX on a cloud TPU-v3-8. 
-You can fine-tune a CLIP model implemented in Flax by simply running `sh run_medclip`.
-This is the validation loss curve we observed when we trained the model using the `run_medclip.sh` script.
+You can fine-tune a CLIP model implemented in Flax by simply running `train_medclip.sh`.
+This is the validation loss curve we observed when we trained the model using the `train_medclip.sh` script.
 ![Validation loss](./assets/val_loss.png)
 
 ## Limitations 🚨
